@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramzy Fattah Alfarizi Tarigan - About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+  class="bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-700 text-white font-sans min-h-screen flex flex-col">
+
+  <!-- Header / Navigation -->
+  <header class="bg-black bg-opacity-40 backdrop-blur sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold tracking-wide hover:text-purple-400 transition">Ramzy Tarigan</a>
+      <nav>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="index.html" class="hover:text-purple-400 transition font-semibold">Home</a></li>
+          <li><a href="about.html" class="hover:text-purple-400 transition font-semibold">About</a></li>
+          <li><a href="skills.html" class="hover:text-purple-400 transition font-semibold">Skills</a></li>
+          <li><a href="projects.html" class="hover:text-purple-400 transition font-semibold">Projects</a></li>
+          <li><a href="contact.html" class="hover:text-purple-400 transition font-semibold">Contact</a></li>
+        </ul>
+        <button id="menu-btn" class="md:hidden focus:outline-none">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-black bg-opacity-80 p-4">
+      <ul class="flex flex-col space-y-3">
+        <li><a href="index.html" class="block hover:text-purple-400 font-semibold">Home</a></li>
+        <li><a href="about.html" class="block hover:text-purple-400 font-semibold">About</a></li>
+        <li><a href="skills.html" class="block hover:text-purple-400 font-semibold">Skills</a></li>
+        <li><a href="projects.html" class="block hover:text-purple-400 font-semibold">Projects</a></li>
+        <li><a href="contact.html" class="block hover:text-purple-400 font-semibold">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow container mx-auto px-6 py-20 max-w-4xl">
+    <h1 class="text-5xl font-extrabold mb-10 text-center drop-shadow-lg">About Me</h1>
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+      <div
+        class="w-48 h-48 rounded-full bg-purple-600/40 border-4 border-purple-400 overflow-hidden shadow-lg flex-shrink-0">
+        <img src="https://i.pravatar.cc/300?img=12" alt="Ramzy Fattah Alfarizi Tarigan"
+          class="w-full h-full object-cover" />
+      </div>
+      <div class="text-lg leading-relaxed text-gray-100">
+        <p class="mb-4">
+          Hello! I'm <span class="font-semibold text-purple-400">Ramzy Fattah Alfarizi Tarigan</span>, a passionate web
+          developer with a keen eye for design and detail. I specialize in crafting modern, responsive, and
+          user-friendly websites that delivers both aesthetic beauty and smooth functionality.
+        </p>
+        <p class="mb-4">
+          My journey started with curiosity and creativity, driving me to constantly learn new technologies and improve
+          my skills. I am proficient in HTML, CSS, JavaScript, and TailwindCSS, and I love exploring new frameworks and
+          development tools.
+        </p>
+        <p>
+          Beyond coding, I am dedicated to collaborating effectively, solving problems efficiently, and building
+          projects that make a difference. I believe good design and clean code go hand in hand to create engaging
+          digital experiences.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-60 text-gray-300 py-6 text-center">
+    <p>© 2024 Ramzy Fattah Alfarizi Tarigan. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>

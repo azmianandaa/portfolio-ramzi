@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramzy Fattah Alfarizi Tarigan - Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+  class="bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-700 text-white font-sans min-h-screen flex flex-col">
+
+  <!-- Header / Navigation -->
+  <header class="bg-black bg-opacity-40 backdrop-blur sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="index.html" class="text-2xl font-bold tracking-wide hover:text-purple-400 transition">Ramzy Tarigan</a>
+      <nav>
+        <ul class="hidden md:flex space-x-6">
+          <li><a href="index.html" class="hover:text-purple-400 transition font-semibold">Home</a></li>
+          <li><a href="about.html" class="hover:text-purple-400 transition font-semibold">About</a></li>
+          <li><a href="skills.html" class="hover:text-purple-400 transition font-semibold">Skills</a></li>
+          <li><a href="projects.html" class="hover:text-purple-400 transition font-semibold">Projects</a></li>
+          <li><a href="contact.html" class="hover:text-purple-400 transition font-semibold">Contact</a></li>
+        </ul>
+        <button id="menu-btn" class="md:hidden focus:outline-none">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-black bg-opacity-80 p-4">
+      <ul class="flex flex-col space-y-3">
+        <li><a href="index.html" class="block hover:text-purple-400 font-semibold">Home</a></li>
+        <li><a href="about.html" class="block hover:text-purple-400 font-semibold">About</a></li>
+        <li><a href="skills.html" class="block hover:text-purple-400 font-semibold">Skills</a></li>
+        <li><a href="projects.html" class="block hover:text-purple-400 font-semibold">Projects</a></li>
+        <li><a href="contact.html" class="block hover:text-purple-400 font-semibold">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow container mx-auto px-6 py-20 max-w-6xl">
+    <h1 class="text-5xl font-extrabold mb-14 text-center drop-shadow-lg">Projects</h1>
+
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">Personal Portfolio Website</h2>
+        <p class="mb-4 text-gray-300">
+          A responsive portfolio website designed with HTML, TailwindCSS, and JavaScript showcasing my work, skills, and
+          background.
+        </p>
+        <a href="index.html" class="text-purple-400 font-semibold hover:underline" target="_blank"
+          rel="noopener noreferrer">View Project</a>
+      </article>
+
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">Todo List App</h2>
+        <p class="mb-4 text-gray-300">
+          A simple and clean to-do list app built using vanilla JavaScript and TailwindCSS, supporting add, delete, and
+          mark as completed features.
+        </p>
+        <a href="#" class="text-purple-400 font-semibold hover:underline">View Project</a>
+      </article>
+
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">Weather Dashboard</h2>
+        <p class="mb-4 text-gray-300">
+          A weather dashboard web app that fetches current weather data from a public API and displays it with modern UI
+          and animations.
+        </p>
+        <a href="#" class="text-purple-400 font-semibold hover:underline">View Project</a>
+      </article>
+
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">Blog Platform Design</h2>
+        <p class="mb-4 text-gray-300">
+          A clean, minimal blog UI design mockup created with Figma, focused on readability and user engagement.
+        </p>
+        <a href="#" class="text-purple-400 font-semibold hover:underline">View Project</a>
+      </article>
+
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">JavaScript Calculator</h2>
+        <p class="mb-4 text-gray-300">
+          A fully functional calculator built with vanilla JavaScript and styled using TailwindCSS for a modern look.
+        </p>
+        <a href="#" class="text-purple-400 font-semibold hover:underline">View Project</a>
+      </article>
+
+      <article class="bg-black bg-opacity-40 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition">
+        <h2 class="text-2xl font-bold mb-3 border-b border-purple-500 pb-2">Responsive E-commerce Site</h2>
+        <p class="mb-4 text-gray-300">
+          A responsive e-commerce site UI built with TailwindCSS, featuring product grids, detail pages, and shopping
+          cart interfaces.
+        </p>
+        <a href="#" class="text-purple-400 font-semibold hover:underline">View Project</a>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-60 text-gray-300 py-6 text-center">
+    <p>© 2024 Ramzy Fattah Alfarizi Tarigan. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>
