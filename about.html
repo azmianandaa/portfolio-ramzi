@@ -4,24 +4,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <title>Ramzy Fattah Alfarizi Tarigan - About</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./src/output.css">
 </head>
 
-<body
-  class="bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-700 text-white font-sans min-h-screen flex flex-col">
+<body class="font-poppins bg-white min-h-screen flex flex-col">
 
   <!-- Header / Navigation -->
-  <header class="bg-black bg-opacity-40 backdrop-blur sticky top-0 z-50">
+  <header class="bg-[#2a2a2a] sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center p-4">
-      <a href="index.html" class="text-2xl font-bold tracking-wide hover:text-purple-400 transition">Ramzy Tarigan</a>
+      <a href="index.html" class="text-md font-bold tracking-wide text-white">Ramzy</a>
       <nav>
-        <ul class="hidden md:flex space-x-6">
-          <li><a href="index.html" class="hover:text-purple-400 transition font-semibold">Home</a></li>
-          <li><a href="about.html" class="hover:text-purple-400 transition font-semibold">About</a></li>
-          <li><a href="skills.html" class="hover:text-purple-400 transition font-semibold">Skills</a></li>
-          <li><a href="projects.html" class="hover:text-purple-400 transition font-semibold">Projects</a></li>
-          <li><a href="contact.html" class="hover:text-purple-400 transition font-semibold">Contact</a></li>
+        <ul class="hidden md:flex space-x-6 text-white">
+          <li><a href="index.html" class="font-medium">Beranda</a></li>
+          <li><a href="about.html" class="font-medium">About Me</a></li>
+          <li><a href="skills.html" class="font-medium">Skills</a></li>
+          <li><a href="projects.html" class="font-medium">Projects</a></li>
+          <li><a href="contact.html" class="font-medium">Contact</a></li>
         </ul>
         <button id="menu-btn" class="md:hidden focus:outline-none">
           <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
@@ -31,49 +35,41 @@
         </button>
       </nav>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-black bg-opacity-80 p-4">
-      <ul class="flex flex-col space-y-3">
-        <li><a href="index.html" class="block hover:text-purple-400 font-semibold">Home</a></li>
-        <li><a href="about.html" class="block hover:text-purple-400 font-semibold">About</a></li>
-        <li><a href="skills.html" class="block hover:text-purple-400 font-semibold">Skills</a></li>
-        <li><a href="projects.html" class="block hover:text-purple-400 font-semibold">Projects</a></li>
-        <li><a href="contact.html" class="block hover:text-purple-400 font-semibold">Contact</a></li>
+    <div id="mobile-menu" class="hidden md:hidden bg-[#2a2a2a] bg-opacity-80 p-4">
+      <ul class="flex flex-col space-y-3 text-white">
+        <li><a href="index.html" class="block font-medium">Beranda</a></li>
+        <li><a href="about.html" class="block font-medium">About Me</a></li>
+        <li><a href="skills.html" class="block font-medium">Skills</a></li>
+        <li><a href="projects.html" class="block font-medium">Projects</a></li>
+        <li><a href="contact.html" class="block font-medium">Contact</a></li>
       </ul>
     </div>
   </header>
 
   <!-- Main Content -->
-  <main class="flex-grow container mx-auto px-6 py-20 max-w-4xl">
-    <h1 class="text-5xl font-extrabold mb-10 text-center drop-shadow-lg">About Me</h1>
+  <main class="flex-grow container mx-auto px-6 py-20 max-w-4xl font-poppins">
+    <h1 class="text-2xl font-bold mb-10 text-center">About Me</h1>
     <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
-      <div
-        class="w-48 h-48 rounded-full bg-purple-600/40 border-4 border-purple-400 overflow-hidden shadow-lg flex-shrink-0">
-        <img src="https://i.pravatar.cc/300?img=12" alt="Ramzy Fattah Alfarizi Tarigan"
+      <div class="w-48 h-48 rounded-full overflow-hidden shadow-lg">
+        <img src="./WhatsApp Image 2025-05-20 at 23.50.35.jpeg" alt="Ramzy Fattah Alfarizi Tarigan"
           class="w-full h-full object-cover" />
       </div>
-      <div class="text-lg leading-relaxed text-gray-100">
+      <div class="text-[13px] text-balance leading-relaxed text-[#2a2a2a]">
         <p class="mb-4">
-          Hello! I'm <span class="font-semibold text-purple-400">Ramzy Fattah Alfarizi Tarigan</span>, a passionate web
-          developer with a keen eye for design and detail. I specialize in crafting modern, responsive, and
-          user-friendly websites that delivers both aesthetic beauty and smooth functionality.
-        </p>
-        <p class="mb-4">
-          My journey started with curiosity and creativity, driving me to constantly learn new technologies and improve
-          my skills. I am proficient in HTML, CSS, JavaScript, and TailwindCSS, and I love exploring new frameworks and
-          development tools.
-        </p>
-        <p>
-          Beyond coding, I am dedicated to collaborating effectively, solving problems efficiently, and building
-          projects that make a difference. I believe good design and clean code go hand in hand to create engaging
-          digital experiences.
+          <span class="font-medium">Hai, Saya adalah seorang Frontend Developer yang berfokus
+            pada
+            pengembangan tampilan
+            website menggunakan <span class="text-orange-500 font-bold">HTML, CSS, dan
+              JavaScript</span>. Saya percaya bahwa fondasi yang kuat dalam teknologi dasar sangat penting untuk
+            membangun website yang responsif, fungsional, dan ramah pengguna.
         </p>
       </div>
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-black bg-opacity-60 text-gray-300 py-6 text-center">
-    <p>© 2024 Ramzy Fattah Alfarizi Tarigan. All rights reserved.</p>
+  <footer class="bg-[#2a2a2a] bg-opacity-60 text-gray-300 py-6 text-center text-xs">
+    <p>© 2025 Ramzy Fattah Alfarizi Tarigan. All rights reserved.</p>
   </footer>
 
   <script>
